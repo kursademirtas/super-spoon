@@ -1,0 +1,14 @@
+
+
+.chatWindow{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+	overflow-y: scroll;
+	background: white;
+}
+
+.chat__container {
+	margin-bottom: 50px;
+}

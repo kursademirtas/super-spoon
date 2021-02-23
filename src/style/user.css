@@ -1,0 +1,32 @@
+.user {
+	display: flex;
+	align-items: flex-start;
+	padding: 1rem;
+}
+
+.user:hover {
+	background: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.user_pic {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.user__details {
+	display: none;
+}
+
+@media (min-width: 576px) {
+	.user__details{
+		display: block;
+		padding: 0 0 0 1rem;
+	}
+
+	.user__details-name {
+		margin: 0;
+		color: var(--body-bg-color);
+		font-size: 1rem;
+	}
+}

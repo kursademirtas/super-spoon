@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	padding: 0.5rem;
+	justify-content: space-between;
+	width: 100%;
+	position: sticky;
+	top:0;
+	background: white;
+	height: min-content;
+	border-bottom: 1px solid var(--border-color);
+	
+}
+
+.header__name {
+	color: black;
+	text-align: left;
+}
+
+
+.header__img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	align-self: center;
+	margin-right: 1rem;
+}

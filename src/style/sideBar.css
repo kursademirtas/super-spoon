@@ -1,0 +1,14 @@
+.sidebar {
+	width: 80px;
+	background-color: white;
+	height: 100%;
+	border-right: 1px solid rgba(189,189,189,0.1);
+	transition: width 0.3s;
+	overflow-y: scroll;
+}
+
+@media (min-width:576px) {
+	.sidebar{
+		width: 320px;
+	}
+}

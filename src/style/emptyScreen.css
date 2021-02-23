@@ -1,0 +1,23 @@
+.emptyScreen {
+	display: flex;
+	margin: auto 0;
+	align-self: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+.welcome__avatar {
+	width: 100px;
+	border-radius: 50px;
+}
+
+button {
+	
+	padding: 1rem 1rem;
+	border-radius: 50px;
+	border: none;
+	
+	
+}
